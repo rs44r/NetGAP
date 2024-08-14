@@ -1,0 +1,4 @@
+SX->B,B->SX,B->SY,SY->B;
+SX[0,7]==> SX -> MX1,MX1->SX,SX -> MX2,MX2->SX,SX -> MX3,MX3->SX;
+SY[2,14] ==> SY -> MY,MY->SY;
+SY1[2,14] ==> SY1 -> SY2 , SY2 -> SY1;

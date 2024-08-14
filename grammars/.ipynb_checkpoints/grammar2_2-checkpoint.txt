@@ -1,0 +1,11 @@
+Sg;
+Sg==>SX;
+Sg==>SY;
+Sg==>SX->B,B->SX,B->SY,SY->B;
+SX[0,14]==> SX -> M,M->SX;  
+SX1[0,14],SX2[0,14] ==> SX1 -> SX2, SX2 -> SX1;
+SX1[0,14] ==> SX1->SX2 , SX2->SX1;
+SY[0,14] ==> SY -> M,M->SY;  
+SY1[0,14],SY2[0,14] ==> SY1 -> SY2 , SY2 -> SY1;
+SY2[0,14] ==> SY1->SY2, SY2->SY1;
+

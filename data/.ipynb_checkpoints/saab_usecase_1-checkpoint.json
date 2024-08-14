@@ -1,0 +1,255 @@
+{
+"name": "InstanceB",
+"applications": [
+{
+"name": "application1",
+"processes": [
+"process1",
+"process2"
+]
+},
+{
+"name": "application2",
+"processes": [
+"process3",
+"process4",
+"process5"
+]
+},
+{
+"name": "application3",
+"processes": [
+"process6"
+]
+},
+{
+"name": "application4",
+"processes": [
+"process7",
+"process8"
+]
+}
+],
+"communications": [
+{
+"req1": 32,
+"from_process": "process1",
+"to_process": "process2",
+"size": 4956
+},
+{
+"req1": 64,
+"from_process": "process2",
+"to_process": "process1",
+"size": 3608
+},
+{
+"req1": 32,
+"from_process": "process3",
+"to_process": "process4",
+"size": 1449
+},
+{
+"req1": 64,
+"from_process": "process4",
+"to_process": "process3",
+"size": 8519
+},
+{
+"req1": 1,
+"from_process": "process7",
+"to_process": "process8",
+"size": 1519
+},
+{
+"req1": 16,
+"from_process": "process8",
+"to_process": "process5",
+"size": 145
+},
+{
+"req1": 8,
+"from_process": "process6",
+"to_process": "process8",
+"size": 10585
+},
+{
+"req1": 16,
+"from_process": "process5",
+"to_process": "process8",
+"size": 550
+},
+{
+"req1": 16,
+"from_process": "process8",
+"to_process": "process7",
+"size": 1196
+},
+{
+"req1": 8,
+"from_process": "process6",
+"to_process": "process7",
+"size": 7032
+},
+{
+"req1": 16,
+"from_process": "process5",
+"to_process": "process7",
+"size": 10245
+},
+{
+"req1": 16,
+"from_process": "process8",
+"to_process": "process6",
+"size": 9631
+},
+{
+"req1": 8,
+"from_process": "process6",
+"to_process": "process5",
+"size": 11468
+},
+{
+"req1": 16,
+"from_process": "process5",
+"to_process": "process6",
+"size": 10445
+},
+{
+"req1": 1,
+"from_process": "process7",
+"to_process": "process6",
+"size": 3783
+},
+{
+"req1": 1,
+"from_process": "process7",
+"to_process": "process5",
+"size": 8758
+},
+{
+"req1": 32,
+"from_process": "process1",
+"to_process": "process4",
+"size": 11729
+},
+{
+"req1": 32,
+"from_process": "process1",
+"to_process": "process8",
+"size": 258
+},
+{
+"req1": 16,
+"from_process": "process8",
+"to_process": "process4",
+"size": 7384
+},
+{
+"req1": 8,
+"from_process": "process6",
+"to_process": "process2",
+"size": 775
+},
+{
+"req1": 16,
+"from_process": "process8",
+"to_process": "process3",
+"size": 11416
+},
+{
+"req1": 1,
+"from_process": "process7",
+"to_process": "process4",
+"size": 10553
+},
+{
+"req1": 1,
+"from_process": "process7",
+"to_process": "process3",
+"size": 10624
+},
+{
+"req1": 8,
+"from_process": "process6",
+"to_process": "process4",
+"size": 9423
+},
+{
+"req1": 8,
+"from_process": "process6",
+"to_process": "process3",
+"size": 744
+},
+{
+"req1": 16,
+"from_process": "process5",
+"to_process": "process4",
+"size": 11910
+},
+{
+"req1": 16,
+"from_process": "process5",
+"to_process": "process3",
+"size": 6739
+},
+{
+"req1": 32,
+"from_process": "process3",
+"to_process": "process1",
+"size": 6275
+},
+{
+"req1": 32,
+"from_process": "process3",
+"to_process": "process2",
+"size": 824
+},
+{
+"req1": 64,
+"from_process": "process4",
+"to_process": "process1",
+"size": 2482
+},
+{
+"req1": 64,
+"from_process": "process4",
+"to_process": "process2",
+"size": 1558
+}
+],
+"processes": [
+{
+"name": "process1",
+"req": 6375713
+},
+{
+"name": "process2",
+"req": 5896797
+},
+{
+"name": "process3",
+"req": 2018433
+},
+{
+"name": "process4",
+"req": 2885304
+},
+{
+"name": "process5",
+"req": 3159592
+},
+{
+"name": "process6",
+"req": 790244
+},
+{
+"name": "process7",
+"req": 7854518
+},
+{
+"name": "process8",
+"req": 451547
+}
+]
+}
